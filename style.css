@@ -43,4 +43,4 @@ body {
     }
 
 div.outer { position: relative; height: 24px; }
-div.outer img { position: absolute; left: 0; bottom: 0; }
+div.outer img { position: absolute; left: 0px; bottom: 0px; }
