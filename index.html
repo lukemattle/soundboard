@@ -11,55 +11,59 @@
 
 <body>
     <h1>com sci&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h1>
+    <!-- stop sound button -->
     <button onclick="stopSongs()">
         <img src="stop.png" height="64" />
         <br>
         <span>click to stop sounds</span>
     </button>
-    <audio id="sneaky snitch" src="sneakysnitch.mp3"></audio>
-    <audio id="he he he hah" src="hehehehah.mp3"></audio>
-    <audio id="supercell" src="supercell.mp3"></audio>
-    <audio id="sticky keys" src="stickykeys.mp3"></audio>
-    <audio id="sticky keys BASS BOOSTED" src="stickykeysbb.mp3"></audio>
-    <audio id="super idol" src="superidol.mp3"></audio>
-    <audio id="iphone alarm" src="iphonealarm.mp3"></audio>
-    <audio id="angry birds" src="agbirds.mp3"></audio>
-    <audio id="bad piggies" src="badpig.mp3"></audio>
-    <audio id="china 1" src="agbirds.mp3"></audio>
-    <audio id="vine boom" src="vineboom.mp3"></audio>
-    <audio id="mc disc stal" src="stalmc.mp3"></audio>
-    <audio id="skibidi bop mm dada" src="skibidiboom.mp3"></audio>
-    <audio id="scatman" src="scatman.mp3"></audio>
-    <audio id="samsung notification" src="Samsung notification sound (bass boosted).mp3"></audio>
-    <audio id="ring BASS BOOSTED" src="ringbb.mp3"></audio>
-    <audio id="red sun in the sky" src="redsuninthesky.mp3"></audio>
-    <audio id="notification spam" src="notifspam.mp3"></audio>
-    <audio id="monkeys spinning monkeys" src="monkeys.mp3"></audio>
-    <audio id="my singing monsters" src="msm.mp3"></audio>
-    <audio id="metal pipe" src="metalpipe.mp3"></audio>
-    <audio id="max verstappen" src="max.mp3"></audio>
-    <audio id="lego build" src="legobuild.mp3"></audio>
-    <audio id="lego break" src="legobreak.mp3"></audio>
-    <audio id="hog rider" src="hogrider.mp3"></audio>
-    <audio id="ching cheng hanji" src="chingcheng.mp3"></audio>
-    <audio id="carefree ukulele" src="carefreeuke.mp3"></audio>
-    <audio id="bruh" src="bruh.mp3"></audio>
-    <audio id="bing chilling" src="bingchilling.mp3"></audio>
-    <audio id="better call saul" src="bettercallsaul.mp3"></audio>
-    <audio id="aughhhhhh" src="aughhhh.mp3"></audio>
-    <audio id="arabic nokia" src="arabicnokia.mp3"></audio>
-    <audio id="peppa theme BASS BOOSTED" src="peppapigbb.mp3"></audio>
-    <audio id="discord" src="discord.mp3"></audio>
+    <!-- add sounds and their names here. remember the id name as this will need to go in script.js later -->
+    <audio id="sneaky snitch" src="s/sneakysnitch.mp3"></audio>
+    <audio id="he he he hah" src="s/hehehehah.mp3"></audio>
+    <audio id="supercell" src="s/supercell.mp3"></audio>
+    <audio id="sticky keys" src="s/stickykeys.mp3"></audio>
+    <audio id="sticky keys BASS BOOSTED" src="s/stickykeysbb.mp3"></audio>
+    <audio id="super idol" src="s/superidol.mp3"></audio>
+    <audio id="iphone alarm" src="s/iphonealarm.mp3"></audio>
+    <audio id="angry birds" src="s/agbirds.mp3"></audio>
+    <audio id="bad piggies" src="s/badpig.mp3"></audio>
+    <audio id="china 1" src="s/agbirds.mp3"></audio>
+    <audio id="vine boom" src="s/vineboom.mp3"></audio>
+    <audio id="mc disc stal" src="s/stalmc.mp3"></audio>
+    <audio id="skibidi bop mm dada" src="s/skibidiboom.mp3"></audio>
+    <audio id="scatman" src="s/scatman.mp3"></audio>
+    <audio id="samsung notification" src="s/Samsung notification sound (bass boosted).mp3"></audio>
+    <audio id="ring BASS BOOSTED" src="s/ringbb.mp3"></audio>
+    <audio id="red sun in the sky" src="s/redsuninthesky.mp3"></audio>
+    <audio id="notification spam" src="s/notifspam.mp3"></audio>
+    <audio id="monkeys spinning monkeys" src="s/monkeys.mp3"></audio>
+    <audio id="my singing monsters" src="s/msm.mp3"></audio>
+    <audio id="metal pipe" src="s/metalpipe.mp3"></audio>
+    <audio id="max verstappen" src="s/max.mp3"></audio>
+    <audio id="lego build" src="s/legobuild.mp3"></audio>
+    <audio id="lego break" src="s/legobreak.mp3"></audio>
+    <audio id="hog rider" src="s/hogrider.mp3"></audio>
+    <audio id="ching cheng hanji" src="s/chingcheng.mp3"></audio>
+    <audio id="carefree ukulele" src="s/carefreeuke.mp3"></audio>
+    <audio id="bruh" src="s/bruh.mp3"></audio>
+    <audio id="bing chilling" src="s/bingchilling.mp3"></audio>
+    <audio id="better call saul" src="s/bettercallsaul.mp3"></audio>
+    <audio id="aughhhhhh" src="s/aughhhh.mp3"></audio>
+    <audio id="arabic nokia" src="s/arabicnokia.mp3"></audio>
+    <audio id="peppa theme BASS BOOSTED" src="s/peppapigbb.mp3"></audio>
+    <audio id="discord" src="s/discord.mp3"></audio>
 
     <br>
+    <!-- shows when loading the sounds and disappears when sounds are fully loaded (not needed but is a nice touch) -->
     <h1 id='loading'>&nbsp&nbsp&nbsp&nbsploading sounds...</h1>
     <div id="buttons"></div>
+    <!-- when 'secret.png' is clicked, it reveals a image. used for fun and not needed -->
     <div class='cute'>
         <button onclick='document.getElementById("secretimg").src = "khalid.jpg";document.getElementById("secretimg").width = "128";document.getElementById("secretimg").height = "128"'>
             <img src='secret.png' height='32' width='32' id='secretimg'>
         </button>
     </div>
-
+<!-- link to the github page. if you wanna credit me as the maker of this page, this will do. -->
 <div class="w3-display-bottomleft w3-padding-medium w3-xlarge">
     <a href=https://github.com/lukemattle/soundboard>
     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height=32 width=32>

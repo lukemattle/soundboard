@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-
+/* styling ig. change any colours/fonts here*/
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: rgb(161, 100, 223);
   font-family: 'Poppins', sans-serif;
@@ -42,9 +41,5 @@ body {
       cursor: pointer;
     }
 
-.github {
-     width:100%;
-     height:64px; 
-     background: url('images/bg-img.png') repeat-x 0 0;
-  }
+
 
