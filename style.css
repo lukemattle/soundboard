@@ -42,5 +42,10 @@ body {
       cursor: pointer;
     }
 
-div.outer { position: relative; height: 24px; }
-div.outer img { position: absolute; left: 0px; bottom: 0px; }
+  .github{
+
+    position:fixed;
+    right:10px;
+    bottom: 10px 
+}
+
