@@ -41,3 +41,6 @@ body {
       all: unset;
       cursor: pointer;
     }
+
+div.outer { position: relative; height: 24px; }
+div.outer img { position: absolute; left: 0; bottom: 0; }
