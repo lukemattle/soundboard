@@ -43,9 +43,8 @@ body {
     }
 
 .github {
-       background:url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
-       width:100%;
-       height:64px; 
-       background-position: bottom right;
-    }
+     width:100%;
+     height:64px; 
+     background: url('images/bg-img.png') repeat-x 0 0;
+  }
 
